@@ -1,0 +1,79 @@
+h1{
+   color: rgb(51, 9, 9);
+   text-align: center;
+   cursor:zoom-in;
+}
+.class1{
+    outline:4px rgb(212, 11, 105) auto;
+    font-size: 20px;
+    cursor:zoom-out;
+}
+.class2{
+    outline: 8px blue double;
+    font-size: 20px;
+    cursor:col-resize;
+}
+.class3{
+    outline: 8px rgb(223, 13, 13) inset;
+    font-size: 20px;
+    cursor:row-resize;
+}
+.class4{
+    outline: 8px rgb(223, 13, 13) outset;
+    font-size: 20px;
+    cursor:crosshair;
+}
+.class5{
+    outline: 8px rgba(3, 90, 29, 0.856) groove;
+    font-size: 20px;
+    cursor: progress;
+}
+.class6{
+    outline: 8px rgba(23, 24, 22, 0.856) solid;
+    font-size: 20px;
+    cursor: grabbing;
+}
+.class7{
+    height: 300px;
+    width:450px;
+    outline:20px rgb(153, 12, 189) dotted;
+    margin: 20px;
+    cursor: nw-resize;
+}
+h2{
+    font-size: 35px;
+    text-align: center;
+    color: rgb(66, 3, 3);
+}
+.class8{
+    max-height: 250px;
+    max-width:250px;
+    overflow: scroll;
+}
+.class9{
+    max-width: 250px;
+    max-height:150px;
+    background-color: aqua;
+    overflow:visible;
+    position:absolute;
+    right: 750px;
+    top: 1300px;
+}
+.class10{
+    max-width: 250px;
+    max-height:150px;
+    overflow:hidden;
+    background-color: blueviolet;
+    position:absolute;
+    right: 470px;
+    top: 1300px;
+}
+.class11{
+    max-width: 250px;
+    max-height:150px;
+    overflow:auto;
+    position:absolute;
+    right: 170px;
+    top: 1300px;
+
+}
